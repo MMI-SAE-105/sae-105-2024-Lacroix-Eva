@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
     <title>SAÉ 105</title>
-    <link rel="stylesheet" href="" />
+
 </head>
-<body>
+<body class>
     <header class="header">
         <a class="header__logo-link" href="/index.html">
             <img
@@ -26,32 +33,150 @@
             <span class="menu-btn__bar" id="mainNav" aria-hidden="true"></span>
         </button>
         
-            <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-                <ul class="menu__list list-unstyled">
-                    <li class="menu__item">
-                        <a class="menu__link" href="a_propos.html">À Propos</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="programme.html">Programme</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="films.html">Films</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="invites.html">Invités</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="infos_pratiques.html">Infos Pratiques</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
-
-
-
+        <!-- <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="a_propos.html">À Propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="films.html">Films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="invites.html">Invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infos_pratiques.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav> -->
     </header>
-</body>
+    <main>
+        <div class="hero hero--home">
+            <h1 class="hero__title hero__title--home">LES CINÉ-ECHOS</h1>
+            <img
+                class="hero__img hero__img--home"
+                src="/assets/img/image_1.webp"
+                alt="Cinéma en extérieur"
+            />
+            <h2 class="hero__subtitle hero__subtitle--home">Présentation du festival</h2>
+            <p class="hero__text hero__text--home">
+                Le Festival Les Ciné-Échos est un espace unique pour découvrir les voix émergentes du cinéma indépendant. Projections, ateliers, discussions et expériences immersives au cœur de la ville d’Héricourt...
+            </p>
+            <a class="btnLink" href="a_propos.html">En savoir plus</a>
+        </div>
+        <section class="section">
+            <h2 class="section__title">Dates Clés</h2>
+            <ul class="dates">
+                <li class="dates__item">
+                    <p class="dates__text"><strong>15 Janvier</strong> → Annonce des films</p>
+                </li>
+                <li class="dates__item">
+                    <p class="dates__text"><strong>20 Janvier</strong> → Annonce des invités</p>
+                </li>
+                <li class="dates__item">
+                    <p class="dates__text"><strong>1 Février</strong> → Ouverture de la billeterie</p>
+                </li>
+                <li class="dates__item">
+                    <p class="dates__text"><strong>12 et 13 Juillet</strong> → Festival</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 class="section__title">Réservez votre places!</h2>
+            <p class="section__text">
+                Ne manquez pas nos prochaines séances, les meilleures places vous attendent.
+            </p>
+            <a class="btnLink" href="a_propos.html">Achetez vos billets</a>
+        </section>
+        <section class="section">
+            <h2 class="section__title">Programmation</h2>
+            <p class="section__text">
+                Découvrez la date de tous les films, événements et activités en un coup d'œil.
+            </p>
+            <a class="btnLink" href="programme.html">Explorez</a>
+        </section>
+        <section class="section">
+            <h2 class="section__title">Invités</h2>
+            <p class="section__text">
+                Apprenez-en plus sur les personnalités qui marqueront cet événement.            </p>
+            <a class="btnLink" href="invites.html">Voir les invités</a>
+        </section>
+        <section class="section">
+            <h2 class="section__title">Tout ce qu'il faut savoir!</h2>
+            <p class="section__text">
+                Retrouvez toutes les informations pour profiter pleinement de votre expérience. </p>
+            <a class="btnLink" href="infos_pratiques.html">Y accéder</a>
+        </section>
+        <section class="section">
+            <h2 class="section__title">Nos partenaires</h2>
+            <ul class="liste__partenaire">
+                <li class="partenaire__item">
+                    <p class="partenaire__text">Frank Darabont</p>
+                </li>
+                <li class="partenaire__item">
+                    <p class="partenaire__text">@finbien (Instagram)</p>
+                </li>
+                <li class="partenaire__item">
+                    <p class="partenaire__text">studio-jag.com</p>
+                </li>
+                <li class="partenaire__item">
+                    <p class="partenaire__text">Le Colisée - Montbéliard</p>
+                </li>
+                <li class="partenaire__item">
+                    <p class="partenaire__text">Traiteur Le Convivial</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <img 
+            class="footer__logo" 
+            src="/assets/icons/logo.svg" 
+            alt="Logo"
+        />
+        <nav class="footer__menu">
+            <h3 class="footer__title">Menu</h3>
+        </nav>
+        <div class="footer__contact">
+            <h3 class="footer__title">Contact</h3>
+            <p>Les Ciné-Échos, 70400 Héricourt</p>
+            <a href="mailto:contact@cine-echos.com">contact@cine-echos.com</a>
+        </div>
+        <div class="footer__mention_legale">
+            <h3 class="footer__title">Mention Légale</h3>
+            <p>“Projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département <a href="https://blogdummi.fr/">MMI de Montbéliard</a>”</p>
+        </div>
+        <div class="footer__social">
+            <h3 class="footer__title">Nous suivre</h3>
+            <ul class="footer__list list-unstyled">
+                <li>
+                    <a href="https://facebook.com" aria-label="Visitez notre page facebook">
+                        <img src="/assets/icons/facebook.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" aria-label="Visitez notre page instagram">
+                        <img src="/assets/icons/insta.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tiktok.com" aria-label="Visitez notre page tiktok">
+                        <img src="/assets/icons/tiktok.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" aria-label="Visitez notre page youtube">
+                        <img src="/assets/icons/ytb.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </html>
