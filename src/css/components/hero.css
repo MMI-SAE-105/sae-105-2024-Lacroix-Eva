@@ -4,11 +4,7 @@
 }
 
 .hero__title {
-    font-size: var(--fs-xl);
-    font-family: var(--Cinzel);
-    color: var(--blanc);
     text-align: center;
     padding-bottom: 150px;
-    font-weight: 700;
     line-height: 100%;
 }
