@@ -1,0 +1,14 @@
+.hero{
+    padding-top: var(--space6x);
+    background: linear-gradient(180deg, #fd0d919a 0%, var(--bleu-foncé) 100%);
+}
+
+.hero__title {
+    font-size: var(--fs-xl);
+    font-family: var(--Cinzel);
+    color: var(--blanc);
+    text-align: center;
+    padding-bottom: 150px;
+    font-weight: 700;
+    line-height: 100%;
+}
