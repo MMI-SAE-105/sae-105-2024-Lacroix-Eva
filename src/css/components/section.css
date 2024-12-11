@@ -1,0 +1,13 @@
+.section{
+    justify-content: center;
+    border-radius: 20px;
+    background: var(--fond-article);
+    display: flex;
+    width: 352px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: var(--space2x);
+    margin-top: var(--space3x);
+}

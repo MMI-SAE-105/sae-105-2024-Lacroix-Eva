@@ -50,6 +50,19 @@ h3 {
     color: var(--blanc);
 }
 
+h4 {
+    color: var(--blanc);
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+    font-family: var(--Cinzel);
+    font-size: var(--fs-l);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0;
+    margin-top: 16px;
+}
+
 p {
     padding-left: var(--space2x);
     padding-right: var(--space2x);
