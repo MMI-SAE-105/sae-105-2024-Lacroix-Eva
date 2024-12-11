@@ -1,0 +1,49 @@
+.footer {
+    margin-top: var(--space50);
+    background: var(--bleu-foncé);
+    background: linear-gradient(#150435, #1E054E);
+}
+
+.footer__logo {
+    display: block;
+    margin-left: var(--space2x);
+    padding-top: var(--space2x);
+}
+
+.footer__title {
+    padding-top: var(--space2x);
+}
+
+.footer__text {
+    color: var(--gris);
+    font-size: var(--fs-s);
+    font-family: var(--Montserrat);
+    font-weight: 400;
+    line-height: 160%;
+    padding-top: 5px;
+    text-transform: none;
+}
+
+.footer__mail {
+    margin-left: var(--space2x);
+    padding-top: var(--space2x);
+    color: var(--gris);
+    font-size: var(--fs-s);
+    font-weight: 400;
+    line-height: 160%;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer__link {
+    color: var(--gris);
+    text-decoration: none;
+}
+
+.footer__list {
+    display: flex;
+    gap: var(--space1x);
+    list-style: none;
+    padding-left: var(--space2x);
+    padding-bottom: var(--space2x);
+}

@@ -48,6 +48,7 @@ h3 {
     line-height: 160%;
     text-transform: uppercase;
     color: var(--blanc);
+    margin-bottom: 0;
 }
 
 h4 {
@@ -66,6 +67,7 @@ h4 {
 p {
     padding-left: var(--space2x);
     padding-right: var(--space2x);
+    margin: 0;
 }
 
 .presentation__text {
