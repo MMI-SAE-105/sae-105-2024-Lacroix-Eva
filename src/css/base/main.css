@@ -1,3 +1,7 @@
 body {
     background-color: var(--bleu-foncé);
 }
+
+.noscroll {
+    overflow: hidden;
+}

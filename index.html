@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/icons/logo.svg" />
-    <link rel="stylesheet" href="/src/css/style.css" />
     <title>SAÉ 105</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
 
 </head>
-<body class>
+<body>
     <header class="header">
         <a class="header__logo-link" href="/index.html">
             <img
@@ -18,17 +19,11 @@
             />
         </a>
 
-        <button 
-            class="header__menu-btn menu-btn"
-            aria-label="menu" 
-            aria-expanded="false" 
-            aria-controls="mainNav">
-            <img src="/assets/icons/menu.svg" alt="Menu Icon" />
-
-            <span class="menu-btn__bar" id="mainNav" aria-hidden="true"></span>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
         
-        <!-- <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
                     <a class="menu__link" href="a_propos.html">À Propos</a>
@@ -49,7 +44,7 @@
                     <a class="menu__link" href="contact.html">Contact</a>
                 </li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
     <main>
         <div class="hero hero--home">
