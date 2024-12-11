@@ -11,6 +11,72 @@ body {
     font-weight: regular;
 }
 
+h1 {
+    font-size: var(--fs-xl);
+    font-family: var(--Cinzel);
+    font-weight: 700;
+    color: var(--blanc);
+}
+
+h2 {
+    font-size: var(--fs-l);
+    font-family: var(--Cinzel);
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--blanc);
+    padding-top: var(--space3x); 
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+}
+
+h2::after {
+    content: "";
+    display: block;
+    background-color: var(--cyan);
+    width: 236.365px;
+    height: 1.5px;
+    margin-top: 7px;
+}
+
+h3 {
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+    font: var(--Montserrat);
+    font-size: var(--fs-xs);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: var(--blanc);
+}
+
+p {
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+}
+
+.presentation__text {
+    font: var(--Montserrat);
+    font-size: var(--fs-m);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-top: var(--space30);
+    color: var(--gris);
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+}
+
+button{
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .noscroll {
     overflow: hidden;
 }
