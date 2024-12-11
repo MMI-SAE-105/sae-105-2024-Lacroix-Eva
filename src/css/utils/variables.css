@@ -1,0 +1,30 @@
+
+:root {
+    /* color */
+    --blanc: #ffffff;
+    --bleu-foncé: #1e054e;
+    --cyan: #04dbc4;
+    --fond-de-guide-style: #ededed;
+    --gris: #c6c4c3;
+    --noir: #000000;
+    --patterns: #04dbc433;
+    --rose: #cd0276;
+    --violet: #6f1051;
+    --fond-article: #ffffff1a;
+
+    /* Text-size styles */
+    --fs-xs: 0.75rem;
+    --fs-s: 0.875rem;
+    --fs-m: 1.5rem;
+    --fs-l: 2rem;
+    --fs-xl: 2.5rem;
+
+    /* Font-family styles */
+    --Mulish: 'Mulish', sans-serif;
+    --Cinzel: 'Cinzel', serif;
+    --Montserrat: 'Montserrat', sans-serif;
+
+    /* Espaces */
+    --space2x: 20px;
+    --space3x: 40px;
+}
