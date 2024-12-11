@@ -1,12 +1,11 @@
 .header {
     position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 353 44;
+    top: 19px;
+    left: 20px;
+    right: 20px;
     display: flex;
-    width: 353px;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header__logo {
