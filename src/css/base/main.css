@@ -99,13 +99,4 @@ button{
 .noscroll {
     overflow: hidden;
 }
-.img {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:red /* Adjust the color and opacity as needed */
-    pointer-events: none; /* Ensures the overlay does not interfere with image interactions */
-}
+
