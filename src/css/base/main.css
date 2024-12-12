@@ -3,12 +3,17 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;   
+}
+
 body {
     font-family: var(--Montserrat);
     font-size: var(--fs-s);
     background-color: var(--bleu-foncé);
     color: var(--blanc);
     font-weight: regular;
+
 }
 
 h1 {

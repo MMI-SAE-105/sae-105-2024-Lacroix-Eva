@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/icons/logo.svg" />
+    <title>SAÉ 105</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo-link" href="/index.html">
+            <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo Ciné-Echos" />
+        </a>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="a_propos.html">À Propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="films.html">Films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="invites.html">Invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infos_pratiques.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero hero--home">
+            <h1 class="hero__title hero__title--home">Infos Pratique</h1>
+        </div>
+        <h2 class="presentation__title">Tarifs</h2>
+        <div class="carousel_container" aria-labelledby="carousel-heading">
+            <div class="carousel_ecran">
+                <div class="items_carousel" role="region" aria-live="polite">
+                    <section class="section__carousel">
+                        <h4 class="section__title">Projection simple</h4>
+                        <p class="section__prix">
+                            8€
+                        </p>
+                    </section>
+                </div>
+                <div class="items_carousel" role="region" aria-live="polite">
+                    <section class="section__carousel">
+                        <h4 class="section__title">Évévements spéciaux</h4>
+                        <p class="section__prix">
+                            10€
+                        </p>
+                    </section>
+                </div>
+                <div class="items_carousel" role="region" aria-live="polite">
+                    <section class="section__carousel">
+                        <h4 class="section__title">Pass Journée</h4>
+                        <p class="section__prix">
+                            12€
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="carousel__controls">
+            <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                <img src="/assets/icons/icon_arrowcarrousel.png" alt="fleche gauche" />
+            </button>
+            <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                <img src="/assets/icons/icon_arrowcarrousel.png" alt="fleche droite" />
+            </button>
+        </div>        
+    </main>
+
+    <footer class="footer">
+        <a class="footer__logo-link" href="/index.html">
+            <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo" />
+        </a>
+        <nav class="footer__menu">
+            <h3 class="footer__title">Menu</h3>
+        </nav>
+        <div class="footer__contact">
+            <h3 class="footer__title">Contact</h3>
+            <p class="footer__text">Les Ciné-Échos, 70400 Héricourt</p>
+            <a class="footer__mail" href="mailto:contact@cine-echos.com">contact@cine-echos.com</a>
+        </div>
+        <div class="footer__mention_legale">
+            <h3 class="footer__title">Mention Légale</h3>
+            <p class="footer__text">“Projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département <a
+                    class="footer__link" href="https://blogdummi.fr/">MMI de Montbéliard</a>”</p>
+        </div>
+        <div class="footer__social">
+            <h3 class="footer__title">Nous suivre</h3>
+            <ul class="footer__list list-unstyled">
+                <li>
+                    <a href="https://facebook.com" aria-label="Visitez notre page facebook">
+                        <img src="/assets/icons/facebook.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" aria-label="Visitez notre page instagram">
+                        <img src="/assets/icons/insta.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tiktok.com" aria-label="Visitez notre page tiktok">
+                        <img src="/assets/icons/tiktok.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" aria-label="Visitez notre page youtube">
+                        <img src="/assets/icons/ytb.svg" aria-hidden="true" alt="" width="24" height="24" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</html>

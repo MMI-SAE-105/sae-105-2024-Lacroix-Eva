@@ -1,0 +1,67 @@
+/* Compléter la suite du code */
+.carousel__controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.carousel__button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50%;
+    right: 10px;
+    top: 683px;
+    color: var(--blanc);
+}
+
+.carousel__button--prev {
+    transform: rotate(180deg);
+    left: 10px;
+}
+
+.carousel_container {
+    padding: 24px;
+} 
+
+.carousel_ecran {
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;;
+}
+
+.items_carousel {
+    display: block;
+    flex: 1 0 100%;
+    scroll-snap-align: center;
+}
+
+.section__prix {
+    color: var(--blanc);
+    font-family: var(--Montserrat);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.section__carousel {
+    justify-content: center;
+    border-radius: 20px;
+    background: var(--fond-article);
+    display: flex;
+    width: auto;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    height: 157.25px;
+}
+
