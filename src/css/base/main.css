@@ -105,3 +105,9 @@ button{
     overflow: hidden;
 }
 
+li {
+    margin-bottom: 10px;
+    color: var(--gris);
+    margin-right: var(--space2x);
+}
+
