@@ -23,6 +23,7 @@ details[open] {
 .accordeon__img {
     width: auto;
     height: auto;
+    border-radius: 15px;
 }
 
 summary {
