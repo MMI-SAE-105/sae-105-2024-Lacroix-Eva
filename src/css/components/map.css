@@ -1,0 +1,11 @@
+.cartes__img {
+    margin: 0 auto;
+    display: block;
+    max-width: calc(100% - 40px);
+    height: auto;
+    margin-bottom: var(--space50);
+}
+
+.cartes_adresse {
+    text-decoration: none;
+}
