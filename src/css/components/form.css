@@ -1,0 +1,110 @@
+.contact__form {
+    margin-right: var(--space2x);
+}
+
+.contact__group::after {
+    content: "";
+    background-color: var(--gris);
+    width: 298px;
+    height: 1px;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: var(--space2x);
+}
+
+.contact__group__message {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.contact__group__message::after {
+    content: "";
+    width: 298px;
+    height: 130px;
+    border: 1px solid var(--gris);
+    margin-left: var(--space2x);
+    margin-top: 34px;
+    margin-bottom: 16px;
+    display: block;
+    position: absolute;
+}
+
+.contact__item {
+    color: var(--blanc);
+    font-family: var(--Montserrat);
+    font-size: var(--fs--s);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 0;
+}
+
+.contact__champ {
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.contact__btn {
+    font-feature-settings: 'liga' off, 'clig' off;
+    background: var(--rose);
+    display: inline-flex;
+    padding: 10px 30px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: var(--Blanc);
+    font-size: var(--fs-xs);
+    font-family: var(--Mulish);
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+
+.contact__coordonnees {
+    margin-left: var(--space2x);
+}
+
+.contact__name {
+    margin-top: 22.4px;
+    color: var(--gris);
+    font-family: var(--Montserrat);
+    font-size: var(--fs-s);
+    font-weight: 700;
+    line-height: 160%;
+    margin-bottom: 0;
+}
+
+.contact__text {
+    color: var(--gris);
+    font-family: var(--Montserrat);
+    font-size: var(--fs-s);
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 0;
+}
+
+.contact__mail {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--gris);
+}
+
+.contact__social {
+    display: flex;
+    gap: var(--space1x);
+    list-style: none;
+    padding-left: var(--space2x);
+    padding-bottom: var(--space2x);
+}
+.contact__social img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}

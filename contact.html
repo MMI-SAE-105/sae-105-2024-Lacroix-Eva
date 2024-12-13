@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/icons/logo.svg" />
+    <title>SAÉ 105</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo-link" href="/index.html">
+            <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo Ciné-Echos" />
+        </a>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="a_propos.html">À Propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="films.html">Films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="invites.html">Invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infos_pratiques.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero hero--home">
+            <h1 class="hero__title hero__title--home">Contact</h1>
+        </div>
+        <p class="contact__intro">Si vous avez des questions, des suggestions ou souhaitez simplement discuter autour du festival, n’hésitez pas à nous contacter. Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+        <section class="contact__form">
+            <div class="contact__group">
+                <p class="contact__item">Nom et Prénom *</p>
+            </div>
+            <div class="contact__group">
+                <p class="contact__item">Adresse e-mail *</p>
+            </div>
+            <div class="contact__group">
+                <p class="contact__item">Objet du message *</p>
+            </div>
+            <div class="contact__group__message">
+                <p class="contact__item">Message *</p>
+            </div>
+            <p class="contact__champ">*Champs obligatoires</p>
+            <a class="contact__btn" href="#">Envoyer</a>
+        </section>
+        <h2 class="presentation__title">Coordonées</h2>
+        <div class="contact__coordonées">
+            <p class="contact__name">Adresse email</p>
+            <a class="contact__mail" href="mailto:contact@cine-echos.com">contact@cine-echos.com</a>
+        </div>
+        <div class="contact__coordonées">
+            <p class="contact__name">Numéro de téléphone</p>
+            <p class="contact__text">06 73 77 86 86</p>
+        </div>
+        <div class="contact__coordonées">
+            <p class="contact__name">Adresse postal</p>
+            <p class="contact__text">Les Ciné-É, 70400 Héricourt</p>
+        </div>
+        <h2 class="presentation__title">Nos Réseaux</h2>
+        <div class="contact__social">
+            <a class="contact__link" href="https://facebook.com">
+                <img class="contact__icon" src="/assets/icons/facebook.svg" alt="Visitez notre page Facebook" />
+            </a>
+            <a class="contact__link" href="https://instagram.com">
+                <img class="contact__icon" src="/assets/icons/insta.svg" alt="Visitez notre page Instagram" />
+            </a>
+            <a class="contact__link" href="https://tiktok.com">
+                <img class="contact__icon" src="/assets/icons/tiktok.svg" alt="Visitez notre page Tiktok" />
+            </a>
+            <a class="contact__link" href="https://youtube.com">
+                <img class="contact__icon" src="/assets/icons/ytb.svg" alt="Visitez notre page Youtube" />
+            </a>
+        </div>
+    </main>
+</html>
