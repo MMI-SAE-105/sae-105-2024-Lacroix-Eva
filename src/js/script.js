@@ -43,3 +43,17 @@ accordeon.querySelectorAll("details").forEach((det) => (det.open = false));
   accordeon.addEventListener("click", ()=> {
     accordeon.querySelectorAll("details").forEach((det)=> (det.open=false));
 })};
+
+// *** FAQ ACCORDEON ***
+
+const faq__Accordeon = document.querySelector(".faq__accordeon");
+
+faq__Accordeon.addEventListener("click", (event) => {
+    if (event.target.tagName === "SUMMARY") {
+        faq__Accordeon.querySelectorAll("details").forEach((detail) => {
+            if (detail !== event.target.parentElement) {
+                detail.open = false; // Ferme les autres accordéons
+            }
+        });
+    }
+});
