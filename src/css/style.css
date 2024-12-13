@@ -1,3 +1,4 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* Vendors */
@@ -21,3 +22,4 @@
 @import "components/intro.css";
 @import "components/button.css";
 @import "components/carousel.css";
+@import "components/accordeon.css";

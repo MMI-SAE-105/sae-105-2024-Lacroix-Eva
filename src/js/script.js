@@ -20,20 +20,26 @@ const prevButton = document.querySelector(".carousel__button--prev");
 const nextButton = document.querySelector(".carousel__button--next");
 
 if (carousel && prevButton && nextButton) {
-  // Sélection de tous les items dans le carousel
   const items = document.querySelectorAll(".items_carousel");
-
-  // Largeur d’un item (on suppose que tous les items ont la même largeur)
   const itemWidth = items[0].clientWidth;
 
-  // Scroll au clic sur le bouton précédent
+  
   prevButton.addEventListener("click", () => {
     carousel.scrollBy({ left: -itemWidth, behavior: "smooth" });
   });
 
-  // Scroll au clic sur le bouton suivant
   nextButton.addEventListener("click", () => {
     carousel.scrollBy({ left: itemWidth, behavior: "smooth" });
   });
 }
 
+// *** ACCORDEON ***
+const accordeon = document.querySelector(".accordeon");
+
+// Close all details by default
+
+accordeon.querySelectorAll("details").forEach((det) => (det.open = false));
+{
+  accordeon.addEventListener("click", ()=> {
+    accordeon.querySelectorAll("details").forEach((det)=> (det.open=false));
+})};
