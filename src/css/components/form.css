@@ -1,5 +1,6 @@
 .contact__form {
     margin-right: var(--space2x);
+    margin-top: 80px;
 }
 
 .contact__group::after {
