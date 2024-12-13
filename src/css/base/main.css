@@ -92,6 +92,17 @@ p {
     padding-right: var(--space2x);
 }
 
+.presentation__biographie {
+    font: var(--Montserrat);
+    font-size: var(--fs-m);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--gris);
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+}
+
 button{
     appearance: none;
     border: none;
