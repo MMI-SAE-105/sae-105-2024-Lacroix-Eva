@@ -87,6 +87,14 @@ details[open] .arrow {
     margin: 0;
 }
 
+.accordeon__realisateur {
+    font-size: 16px;
+    font-family: var(--Montserrat);
+    font-weight: 500;
+    color: var(--blanc);
+    
+}
+
 p {
     color: var(--gris);
 }
